@@ -50,7 +50,7 @@ class ViewController: UIViewController, URLSessionDownloadDelegate {
         shapeLayer.transform = CATransform3DMakeRotation(-CGFloat.pi / 2, 0, 0, 1)
         shapeLayer.strokeEnd = 0
         view.layer.addSublayer(shapeLayer)
-    
+        ///
     }
     
     private func createCircleShapeLayer(strokeColor: UIColor, fillColor: UIColor) -> CAShapeLayer {
